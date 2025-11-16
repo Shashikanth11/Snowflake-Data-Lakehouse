@@ -9,17 +9,14 @@ structured, query-ready dataset, enabling analysis of trending categories, user 
 content strategies. The dataset includes metadata such as views, likes, comments, category
 information, and daily trending videos, providing a rich foundation for insights across multiple
 regions.
+
 Project Overview:
 The project was executed in four main parts:
-●
-Data Ingestion – Load data into Snowflake via Azure Blob Storage and create
+● Data Ingestion – Load data into Snowflake via Azure Blob Storage and create
 consolidated internal tables.
-●
-Data Cleaning – Handle duplicates, missing values, and invalid entries to ensure dataset
+● Data Cleaning – Handle duplicates, missing values, and invalid entries to ensure dataset
 integrity.
-●
-Data Analysis – Perform SQL-driven analysis on top videos, trending categories,
+● Data Analysis – Perform SQL-driven analysis on top videos, trending categories,
 engagement, and channel performance.
-●
-Business Question – Recommend a content strategy for a new YouTube channel based
+● Business Question – Recommend a content strategy for a new YouTube channel based
 on global and regional trends.

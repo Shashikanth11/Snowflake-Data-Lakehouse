@@ -16,7 +16,7 @@ USE DATABASE assignment_1;
 CREATE OR REPLACE STAGE stage_assignment
   URL = 'azure://bigdataeng.blob.core.windows.net/assignment-1'
   CREDENTIALS = (
-    AZURE_SAS_TOKEN = 'sp=racwdli&st=2025-08-17T01:11:18Z&se=2026-08-17T09:26:18Z&spr=https&sv=2024-11-04&sr=c&sig=mN9dCjPWR2vl0OVsYhc7vP358T4EjDmGK4tGEbYlYXc%3D'
+    AZURE_SAS_TOKEN = '' -- Insert your Azure SAS token here 
   );
 
 -- Verify available files in the stage
